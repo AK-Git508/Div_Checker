@@ -1,11 +1,16 @@
 import streamlit as st
+import math
+
+col1,col2,col3, = st.columns([1,2,1])
 
 #   Divison Checker
 
-dividend = int(input("Enter dividend here: "))
-divisor = int(input("Enter divisor here: "))
+with col2:
+dividend = int(st.text_input("Enter dividend here: "))
+divisor = int(st.text_input("Enter divisor here: "))
 
 try:
-  print (divident/divisor)
+  st.write (divident/divisor)
 except ZeroDivisionError
-  print ("Divsor cannot be zero")
+  st.write ("Divsor cannot be zero")
+ 
