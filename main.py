@@ -10,7 +10,7 @@ with col2:
   divisor = int(st.text_input("Enter divisor here: ",value = 5))
 
 try:
-  st.write (divident/divisor)
+  st.write (dividend/divisor)
 except ZeroDivisionError:
   st.write ("Divsor cannot be zero")
   
