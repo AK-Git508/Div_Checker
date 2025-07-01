@@ -11,6 +11,6 @@ with col2:
 
 try:
   st.write (divident/divisor)
-except ZeroDivisionError
+except ZeroDivisionError:
   st.write ("Divsor cannot be zero")
   
