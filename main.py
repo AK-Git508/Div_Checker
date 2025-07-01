@@ -16,3 +16,5 @@ except ZeroDivisionError:
     st.write("❌ The divisor cannot be zero!")
 except ValueError:
     st.write("❌ Make sure to enter valid numbers for both dividend and divisor!")
+
+st.write("A simple web application created using python libraries such as Streamlit that calculates the result of a division expression.")
