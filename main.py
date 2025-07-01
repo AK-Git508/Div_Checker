@@ -19,3 +19,5 @@ except ValueError:
 
 st.header("Description")
 st.write("A simple web application created using python libraries such as Streamlit that calculates the result of a division expression.")
+
+st.write("Developed by Aariz Khan and Kabir Tiwari")
